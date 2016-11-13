@@ -1,0 +1,17 @@
+{
+  "name": "joivy-terminator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+      "test": "mocha src/Enviroment.js src/Tests/**/*.js"
+  },
+  "author": "maciej.rybaniec@joivy.com",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^3.5.0",
+    "chromedriver": "^2.25.1",
+    "mocha": "^3.1.2",
+    "selenium-webdriver": "^3.0.1"
+  }
+}
